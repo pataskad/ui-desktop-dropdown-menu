@@ -8,6 +8,23 @@
 html {
   background-color: rgb(238, 238, 238);
 }
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  25% {
+    transform: scaleY(0.25);
+  }
+  50% {
+    transform: scaleY(0.50);
+  }
+  75% {
+    transform: scaleY(0.75);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
 .navbar {
   background-color: rgb(196, 197, 191);
   margin: 5px;
@@ -35,6 +52,8 @@ html {
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.514);
   border-top: none;
   border-radius: 5px;
+  animation: growDown 250ms ease-in forwards;
+  transform-origin: top center;
 }
 .dropdown-menu > ul > li {
   list-style: none;
