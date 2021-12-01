@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta author="Dallas Pataska">
+    <meta description="A package to recreate an elegant dropdown menu for desktop layouts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Dropdown UI</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="dropdown-option">
+            <a href="#" class="navbar-option-main">Locations</a>
+            <div id="locations" class="dropdown-menu hidden">
+                <ul>
+                    <li><a href="#" class="dropdown">Corporate</a></li>
+                    <li><a href="#" class="dropdown">Near Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-option">
+            <a href="#" class="navbar-option-main">Products</a>
+            <div id="products" class="dropdown-menu hidden">
+                <ul>
+                    <li><a href="#" class="dropdown">Most Popular</a></li>
+                    <li><a href="#" class="dropdown">Highest Rated</a></li>
+                    <li><a href="#" class="dropdown">Catalog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
