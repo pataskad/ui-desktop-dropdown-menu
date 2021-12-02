@@ -28,6 +28,6 @@ window.addEventListener("mouseover", function (e) {
   }
 });
 
-exports.dropDownNav = function dropDownNav () {
+module.exports.dropDownNav = function dropDownNav () {
   console.log("This is a test package, use at your own discretion");
 };
