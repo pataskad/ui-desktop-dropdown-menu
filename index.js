@@ -27,8 +27,7 @@ window.addEventListener("mouseover", function (e) {
     }
   }
 });
-function dropDownNav () {
-  console.log("This is a message from the demo package");
-};
 
-module.exports = options, dropDowns, dropDownNav
+exports.dropDownNav = function dropDownNav () {
+  console.log("This is a test package, use at your own discretion");
+};
